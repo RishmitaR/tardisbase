@@ -13,8 +13,8 @@
 version: 1
 metadata:
   content_hash:
-    osx-arm64: 79afe1862bb3210df9789d95606f7e467bf97affb656b1410b7e35bc9f5e751f
-    linux-64: edf7e6521b3a3b857283780b6bea7ae1b0cc38da987c1049ee767a9201067cc5
+    osx-arm64: 57b79c09596afa122dd2e5aa4f0abf40eb7711e7250f38f562961e397210c3ba
+    linux-64: f560a13d1e001af229857ac532aadaa7093e9e3ed7a568c8a5eb1b96895a8f13
     osx-64: 53ee2a93532c615b09ec3f16d932f0f06f25aa5e96201b7c4a833dd7022110b6
   channels:
   - url: conda-forge
@@ -13906,17 +13906,17 @@ package:
   category: main
   optional: false
 - name: plotly
-  version: 5.22.0
+  version: 6.6.0
   manager: conda
   platform: linux-64
   dependencies:
+    narwhals: '>=1.15.1'
     packaging: ''
-    python: '>=3.6'
-    tenacity: '>=6.2.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/plotly-5.22.0-pyhd8ed1ab_0.conda
+    python: '>=3.10'
+  url: https://conda.anaconda.org/conda-forge/noarch/plotly-6.6.0-pyhd8ed1ab_0.conda
   hash:
-    md5: 5b409a5f738e7d76c2b426eddb7e9956
-    sha256: 16cada008ce6bf231bcb00a9aca6bddd03d4d0f1f7f2cd83882aa0023845c33a
+    md5: 3e9427ee186846052e81fadde8ebe96a
+    sha256: c418d325359fc7a0074cea7f081ef1bce26e114d2da8a0154c5d27ecc87a08e7
   category: main
   optional: false
 - name: plotly
@@ -13934,17 +13934,17 @@ package:
   category: main
   optional: false
 - name: plotly
-  version: 5.22.0
+  version: 6.6.0
   manager: conda
   platform: osx-arm64
   dependencies:
+    narwhals: '>=1.15.1'
     packaging: ''
-    python: '>=3.6'
-    tenacity: '>=6.2.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/plotly-5.22.0-pyhd8ed1ab_0.conda
+    python: '>=3.10'
+  url: https://conda.anaconda.org/conda-forge/noarch/plotly-6.6.0-pyhd8ed1ab_0.conda
   hash:
-    md5: 5b409a5f738e7d76c2b426eddb7e9956
-    sha256: 16cada008ce6bf231bcb00a9aca6bddd03d4d0f1f7f2cd83882aa0023845c33a
+    md5: 3e9427ee186846052e81fadde8ebe96a
+    sha256: c418d325359fc7a0074cea7f081ef1bce26e114d2da8a0154c5d27ecc87a08e7
   category: main
   optional: false
 - name: pluggy
@@ -18385,18 +18385,6 @@ package:
   category: main
   optional: false
 - name: tenacity
-  version: 9.1.4
-  manager: conda
-  platform: linux-64
-  dependencies:
-    python: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.1.4-pyhcf101f3_0.conda
-  hash:
-    md5: 043f0599dc8aa023369deacdb5ac24eb
-    sha256: 32e75900d6a094ffe4290a8c9f1fa15744d9da8ff617aba4acaa0f057a065c34
-  category: main
-  optional: false
-- name: tenacity
   version: 9.1.2
   manager: conda
   platform: osx-64
@@ -18406,18 +18394,6 @@ package:
   hash:
     md5: 5d99943f2ae3cc69e1ada12ce9d4d701
     sha256: fd9ab8829947a6a405d1204904776a3b206323d78b29d99ae8b60532c43d6844
-  category: main
-  optional: false
-- name: tenacity
-  version: 9.1.4
-  manager: conda
-  platform: osx-arm64
-  dependencies:
-    python: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.1.4-pyhcf101f3_0.conda
-  hash:
-    md5: 043f0599dc8aa023369deacdb5ac24eb
-    sha256: 32e75900d6a094ffe4290a8c9f1fa15744d9da8ff617aba4acaa0f057a065c34
   category: main
   optional: false
 - name: terminado
